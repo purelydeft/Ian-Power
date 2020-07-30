@@ -1,0 +1,343 @@
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.nav-item:last-child {
+	    width: 10%;
+	}
+
+	.nav-item:nth-child(2) {
+	    width: 46.5%;
+	}
+
+	.navlinks-inner-links {
+		margin-right: 24px;
+	}
+
+	.power-sec-img-wrap {
+	    height: 100%;
+	}
+
+	.power-sec-img {
+	    width: 100%;
+	    height: 100%;
+	    object-fit: cover;
+	}
+
+	.section-heading {
+	    font-size: 28px;
+	}
+
+	.powerpro-section.section-10 .section-text {
+	    font-size: 13px;
+	}
+
+	.powerpro-section.section-10 .section-heading {
+	    font-size: 18px;
+	}
+
+	.powerpro-section.section-9 .section-text {
+		font-size: 15px;
+	}
+
+	.banner-content-wrap {
+	    padding-top: 55px;
+	}
+
+
+}
+
+@media (max-width: 991px) {
+	.footer-links-area {
+	    margin-bottom: 30px;
+	}
+
+	#collapsibleNavbar {
+	    position: absolute;
+	    top: calc(100% + 20px);
+	    z-index: 9;
+	    background: #fff;
+	    left: 0;
+	    right: 0;
+	    padding: 15px;
+	    border-radius: 6px;
+	}
+
+	.lower-header-wrap .nav-item {
+		width: 100%;
+    	margin-bottom: 15px;
+	}
+
+	/*.lower-header-wrap .navbar .navbar-nav {
+	    flex-direction: row;
+	}*/
+
+	.navlinks-inner-links-list {
+	    flex-direction: column;
+	}
+
+	.banner-content-wrap {
+	    padding-top: 35px;
+	}
+
+	.banner-heading {
+	    font-size: 32px;
+	    line-height: 40px;
+	}
+
+	.banner-heading-light{
+		font-size: 22px;
+	}
+
+	.other-facilities-wrap {
+		text-align: center;
+	}
+
+	.power-sec-img-wrap {
+	    padding-top: 50px;
+	}
+
+	.order-cstm {
+	    order: 2;
+	}
+
+	.powerpro-section.section-9 .section-heading {
+	    font-size: 22px;
+	}
+
+	.phone-icon {
+		font-size: 14px;
+	}
+
+	.tel-contact {
+	    font-size: 16px;
+	}
+
+	.arrow-img {
+	    margin-left: 20px;
+	}
+
+	.banner-search-wrap .form-control {
+	    width: 380px;
+	}
+
+	.banner-search-wrap {
+	    margin-top: 26px;
+	}
+}
+
+@media (max-width: 767px) {
+	.banner-content-wrap {
+	    padding-top: 15px;
+	    padding-bottom: 50px;
+		text-align: center;
+	}
+
+	.banner-img-wrap {
+	    text-align: center;
+	    margin-bottom: -10px;
+	}
+
+	.powerpro-section.section-9 .powerpro-sec-content-wrap {
+	    width: 100%;
+	}
+
+	.pd-btm {
+	    padding-bottom: 50px;
+	}
+
+	.powerpro-section.section-10 .section-heading {
+	    font-size: 15px;
+	    line-height: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.powerpro-section .card-link {
+	    font-size: 14px;
+	}
+
+	.powerpro-section .card-body {
+	    font-size: 12px;
+	}
+
+	.powerpro-section.section-9 .powerpro-sec-content {
+	    margin-left: unset;
+	    margin: 0 auto!important;
+	}
+	
+	.box-section-1.cstm-order {
+	    order: 4;
+	}
+
+}
+
+@media (max-width: 575px) {
+	.footer-section .row>div:not(.col-md-12){
+	    width: 50%;
+	}
+
+	.footer-links-heading {
+		margin-bottom: 5px;
+	}
+
+	.sign-in-btn {
+	    margin-left: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer-content {
+		padding-bottom: 20px;
+		margin-top: 0px;
+	}
+
+	.pd-btm {
+	    padding-bottom: 30px;
+	}
+
+	.powerpro-section {
+	    padding: 50px 0;
+	}
+
+	.footer-section {
+		padding-top: 50px;
+	}
+
+	.footer-text.mg-btm {
+	    margin-bottom: 30px;
+	}
+
+	.powerpro-section.section-9 .section-text {
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+
+	.powerpro-section.section-9 .section-heading {
+	    font-size: 18px;
+	    line-height: 24px;
+	    margin-bottom: 30px;
+	}
+
+	.powerpro-section.section-9 .powerpro-sec-content-wrap {
+	    padding: 50px 15px;
+	}
+
+	.powerpro-section .card-link {
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+
+	.powerpro-section .section-heading, .section-heading {
+	    margin-bottom: 25px!important;
+	    font-size: 18px;
+	    line-height: 24px;
+	}
+
+	.download-btn {
+	    margin-right: 10px;
+	    width: 130px;
+	    height: 35px;
+	}
+
+	.section-semi-heading {
+	    font-size: 15px;
+	    margin-bottom: 15px;
+	}
+
+	.power-sec-img-wrap {
+	    padding-top: 30px;
+	}
+
+	.section-listing-item {
+	    font-size: 13px;
+	}
+
+	.section-text {
+	    font-size: 13px;
+	}
+
+	.upper-header-wrap {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.sign-in-wrap {	    width: 100%;
+	    justify-content: space-between;
+	    padding-top: 20px;
+	}
+
+	.banner-upper-text {
+		font-size: 14px;
+	}
+
+	.banner-heading {
+	    font-size: 24px;
+	    line-height: 35px;
+	}
+
+	.banner-section {
+		padding-top: 85px;
+	}
+
+	.other-facilities-wrapper {
+	    height: 112px;
+	    width: 112px;
+	}
+
+	.other-facilities-heading {
+	    margin-top: 8px;
+	}
+
+	.other-facilities-wrap {
+		padding-top: 24px;
+	}
+
+	.other-facilities {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+
+	.powerpro-section .section-text, .footer-text {
+	    margin-bottom: 15px!important;
+	}
+
+	.powerpro-section.section-10 .section-text {
+	    margin-bottom: 30px!important;
+	}
+
+	.powerpro-section.section-10 {
+	    padding-bottom: 20px;
+	}
+
+	.pd-btm {
+	    padding-bottom: 0px;
+	}
+
+	.other-facilities-heading {
+	    font-size: 14px;
+	}
+
+	.login-form-section {
+		padding: 30px 17px;
+	}
+
+	.banner-search-wrap .form-control {
+	    width: 280px;
+	}
+
+	.banner-search {
+		position: relative;
+	    top: unset;
+	    right: unset;
+	    transform: unset;
+	    margin-top: 10px;
+	}
+
+	.banner-search-wrap .form-control {
+	    padding-right: 15px;
+	}
+}
