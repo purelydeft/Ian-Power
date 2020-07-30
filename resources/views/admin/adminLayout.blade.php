@@ -341,7 +341,7 @@
                                             <a class="nav-link" href="{{ route('cat.list')}}">Blogs Category Listing</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/sign-up.html">Blog Listing</a>
+                                            <a class="nav-link" href="{{ route('blogs.list')}}">Blog Listing</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/forgot-password.html">Forgot Password</a>

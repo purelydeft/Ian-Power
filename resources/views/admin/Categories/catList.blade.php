@@ -22,7 +22,8 @@
         <div class="card-body">
             <table class="table table-striped">
                 <thead>
-                  <tr><th>No.</th><th>Category Name</th><th>Action</th></tr>
+                  <tr><th>No.</th><th>Category Name</th><th>Action</th><th>Status</th></tr>
+                  @if (count($Cats)>0)
                     @foreach ($Cats as $key => $Cat) 
                   
                     <tr>
@@ -51,7 +52,10 @@
                 
                    
                 @endforeach
-                    
+                @else
+                <tr><td colspan="4"><div class="no_results"><h3>No result found</h3></div></td></tr>
+
+                @endif
                 </tbody>
             </table>
         </div>

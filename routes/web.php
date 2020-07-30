@@ -66,11 +66,11 @@ Route::group(['middleware' => 'admin', 'prefix' => 'admin'], function () {
     // Routes for Blog CRUD opration, Admin can Access
 
     Route::any('/blog/create','admin\BlogController@create')->name('blog.new');
-    // Route::Post('/blog/create','admin\BlogController@store')->name('blog.store');
-    // Route::any('/blog/edit/{id}','admin\BlogController@edit')->name('blog.edit');
-    // Route::Post('/blog/update/{id}','admin\BlogController@update')->name('blog.update');
-    // Route::any('/blog/delete/{id}','admin\BlogController@destroy')->name('delete_blog');
-    // Route::get('/blog','admin\BlogController@index')->name('faq.list');
+    Route::Post('/blog/create','admin\BlogController@store')->name('blog.store');
+    Route::any('/blog/edit/{slug}','admin\BlogController@edit')->name('blog.edit');
+    Route::Post('/blog/update/{slug}','admin\BlogController@update')->name('blog.update');
+    Route::any('/blog/delete/{slug}','admin\BlogController@destroy')->name('delete_blog');
+    Route::get('/blogs','admin\BlogController@index')->name('blogs.list');
 
 
 });
@@ -89,3 +89,7 @@ Route::post('admin/login','admin\loginController@login')->name('admin-logged');
 // Routes for Display Pages details 
 
 Route::any('/{slug}','AdminController@show')->name('pages.display');
+
+ // Routes for Display Blogs details 
+
+Route::any('/blogs/{slug}','admin\BlogController@show')->name('blogs.display');

@@ -32,4 +32,10 @@ class BlogCategory extends Model
     protected $fillable = [
         'Cat_title','cat_slug','Cat_description','status',
     ];
+
+    public function getpostRelation()
+    {
+        return $this->hasMany('App\Blog');
+    }
+   
 }
