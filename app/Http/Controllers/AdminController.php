@@ -43,7 +43,9 @@ class AdminController extends Controller
     {
        
         $page = Page::where('slug', $slug)->first();
-        if($page->status ==0){
+
+       
+        if($page->status ==0 || $page == null){
             return abort(404);
         }
         // dd($page->id);

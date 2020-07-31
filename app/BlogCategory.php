@@ -35,7 +35,7 @@ class BlogCategory extends Model
 
     public function getpostRelation()
     {
-        return $this->hasMany('App\Blog');
+        return $this->hasMany('App\Blog','id');
     }
    
 }

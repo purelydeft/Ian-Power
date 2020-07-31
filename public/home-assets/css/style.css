@@ -1221,5 +1221,16 @@ section::after,
     font-weight: 400;
     margin-bottom: 10px;
 }
+.alert.alert-danger {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
 
+.alert.alert-danger p {
+    color: #ff0000;
+    text-align: left;
+}
 /*login css ends here*/

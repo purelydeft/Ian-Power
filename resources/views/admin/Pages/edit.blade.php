@@ -55,7 +55,6 @@
     </form>
   </div>
 </form>
-<script src="/unisharp/laravel-ckeditor/ckeditor.js"></script>
 <script>
   var editor1 = CKEDITOR.replace( 'page-desc' );
   editor1.config.allowedContent = true;

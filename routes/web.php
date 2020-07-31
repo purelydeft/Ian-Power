@@ -77,7 +77,7 @@ Route::group(['middleware' => 'admin', 'prefix' => 'admin'], function () {
 
 // Routes for Homepage
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
 // Routes for Admin Login 
 
@@ -93,3 +93,4 @@ Route::any('/{slug}','AdminController@show')->name('pages.display');
  // Routes for Display Blogs details 
 
 Route::any('/blogs/{slug}','admin\BlogController@show')->name('blogs.display');
+

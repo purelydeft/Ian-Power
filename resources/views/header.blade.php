@@ -4,10 +4,23 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="upper-header-wrap">
-					<a href="javascript:void(0);" class="site-logo-wrap"><img src="{{ url('/home-assets/images/site-logo.png')}}" class="site-logo"></a>
+					<a href="javascript:void(0);" class="site-logo-wrap"><img src="{{ asset('/home-assets/images/site-logo.png')}}" class="site-logo"></a>
 					<div class="sign-in-wrap">
 						<a href="javascript:void(0);" class="tel-contact">0333 444 0331</a>
-						<a href="javascript:void(0);" class="sign-in-btn">sign in <span class="arrow-img"><img src="{{ url('/home-assets/images/arrow.png')}}"></span></a>
+						@if (Auth::user())
+						<a class="sign-in-btn" href="{{ route('logout') }}"
+						onclick="event.preventDefault();
+									  document.getElementById('logout-form').submit();">
+						 {{ __('Logout') }}<span class="arrow-img"><img src="{{ asset('/home-assets/images/arrow.png')}}">
+					 </a>
+
+					 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+						 @csrf
+					 </form>
+						@else
+						<a href="{{url('/login')}}" class="sign-in-btn">sign in <span class="arrow-img"><img src="{{ asset('/home-assets/images/arrow.png')}}"></span></a>	
+						@endif
+					
 					</div>
 				</div>
 				<div class="lower-header-wrap">

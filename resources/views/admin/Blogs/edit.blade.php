@@ -10,7 +10,7 @@
 @endif
 <div class="col-md-12">
     <div class="add-page-btn-wrap">
-        <a class="nav-link add-page-btn" href="">Back</a>
+        <a class="nav-link add-page-btn" href="{{route('blogs.list')}}">Back</a>
     </div>
 </div>
 <form role="form" class="form-edit-add" action="{{route('blog.update',$blog->blog_slug)}}" method="POST" enctype="multipart/form-data">
@@ -61,7 +61,6 @@
 
   </div>
 </form>
-<script src="/unisharp/laravel-ckeditor/ckeditor.js"></script>
 <script>
     var editor1 = CKEDITOR.replace( 'blog_fullDesc' );
     editor1.config.allowedContent = true;

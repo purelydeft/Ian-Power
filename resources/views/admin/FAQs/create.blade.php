@@ -9,7 +9,7 @@
 @endif
 <div class="col-md-12">
     <div class="add-page-btn-wrap">
-        <a class="nav-link add-page-btn" href="">Back</a>
+    <a class="nav-link add-page-btn" href="{{route('faq.list')}}">Back</a>
     </div>
 </div>
     <form action="{{route('faq.store')}}" method="POST">
@@ -40,6 +40,5 @@
     editor1.config.allowedContent = true;
     
   </script>
-</div>
 
 @endsection

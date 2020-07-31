@@ -9,7 +9,7 @@
 @endif
 <div class="col-md-12">
     <div class="add-page-btn-wrap">
-        <a class="nav-link add-page-btn" href="">Back</a>
+    <a class="nav-link add-page-btn" href="{{route('cat.list')}}">Back</a>
     </div>
 </div>
     <form action="{{route('blogcat.store')}}" method="POST">
@@ -34,7 +34,6 @@
     </form>
   </div>
 </form>
-<script src="/unisharp/laravel-ckeditor/ckeditor.js"></script>
 <script>
     var editor1 = CKEDITOR.replace( 'Cat_description' );
     editor1.config.allowedContent = true;

@@ -20,7 +20,7 @@ $faqs = faq::all(); ?>
 
             <div class="col-md-12">
                 <div class="add-page-btn-wrap">
-                    <a class="nav-link add-page-btn" href="{{ route('pages.new')}}">Add New FAQ</a>
+                    <a class="nav-link add-page-btn" href="{{ route('faq.new')}}">Add New FAQ</a>
                 </div>
             </div>
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">

@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="{{ url('home-assets/css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url('home-assets/css/responsive.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('home-assets/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('home-assets/css/responsive.css') }}">
 </head>
 <body>
 <section class="login-page">
@@ -17,7 +17,7 @@
 			<div class="col-md-12">
 				<div class="login-form-section">
 					<figure class="login-logo-wrap">
-						<img src="{{ url('/home-assets/images/login-logo.png') }}">
+						<img src="{{ asset('/home-assets/images/login-logo.png') }}">
 					</figure>
 					<h3 class="login-form-heading">Log in to your Power Pro’s Online Account </h3>
                     <form method="POST" action="{{ route('login') }}" class="login-form">

@@ -93,7 +93,7 @@
 			<div class="col-lg-2 col-md-4">
 				<div class="footer-links-area">
 					<figure class="footer-logo-wrap">
-					<img src="{{ url('/home-assets/images/footer-logo.png')}}" class="footer-logo">
+					<img src="{{ asset('/home-assets/images/footer-logo.png')}}" class="footer-logo">
 					</figure>
 					<ul class="footer-social-links-lisitng">
 						<li class="footer-links-wrap">
